@@ -6,9 +6,9 @@ import (
 	"github.com/go-pg/pg"
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
-	"github.com/ribice/gorsk/internal/auth"
+	"gorsk/internal/auth"
 )
 
 // New creates new user application service

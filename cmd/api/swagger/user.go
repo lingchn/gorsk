@@ -1,9 +1,9 @@
 package swagger
 
 import (
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
-	"github.com/ribice/gorsk/cmd/api/request"
+	"gorsk/cmd/api/request"
 )
 
 // Account create request

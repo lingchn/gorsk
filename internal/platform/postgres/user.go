@@ -3,7 +3,7 @@ package pgsql
 import (
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 )
 
 // NewUserDB returns a new UserDB instance

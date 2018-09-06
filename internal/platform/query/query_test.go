@@ -5,9 +5,9 @@ import (
 
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
-	"github.com/ribice/gorsk/internal/platform/query"
+	"gorsk/internal/platform/query"
 	"github.com/stretchr/testify/assert"
 )
 

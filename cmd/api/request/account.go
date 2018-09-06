@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 )
 
 // Register contains registration request

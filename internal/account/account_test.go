@@ -6,12 +6,12 @@ import (
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
 
-	"github.com/ribice/gorsk/internal/mock"
+	"gorsk/internal/mock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/internal"
-	"github.com/ribice/gorsk/internal/account"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
+	"gorsk/internal"
+	"gorsk/internal/account"
+	"gorsk/internal/mock/mockdb"
 )
 
 func TestCreate(t *testing.T) {

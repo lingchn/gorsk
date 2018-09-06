@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
-	"github.com/ribice/gorsk/internal/platform/postgres"
+	"gorsk/internal"
+	"gorsk/internal/platform/postgres"
 
-	"github.com/ribice/gorsk/cmd/api/config"
+	"gorsk/cmd/api/config"
 
 	"github.com/fortytw2/dockertest"
 	"github.com/go-pg/pg"

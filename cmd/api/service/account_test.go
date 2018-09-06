@@ -11,15 +11,15 @@ import (
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
-	"github.com/ribice/gorsk/cmd/api/server"
-	"github.com/ribice/gorsk/cmd/api/service"
-	"github.com/ribice/gorsk/internal/account"
-	"github.com/ribice/gorsk/internal/auth"
+	"gorsk/cmd/api/server"
+	"gorsk/cmd/api/service"
+	"gorsk/internal/account"
+	"gorsk/internal/auth"
 
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
+	"gorsk/internal/mock"
+	"gorsk/internal/mock/mockdb"
 )
 
 func TestCreate(t *testing.T) {

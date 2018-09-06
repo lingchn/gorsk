@@ -2,7 +2,7 @@ package mockdb
 
 import (
 	"github.com/go-pg/pg/orm"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 )
 
 // User database mock

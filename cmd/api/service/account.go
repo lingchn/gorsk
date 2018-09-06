@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
-	"github.com/ribice/gorsk/internal/account"
+	"gorsk/internal/account"
 
-	"github.com/ribice/gorsk/cmd/api/request"
+	"gorsk/cmd/api/request"
 )
 
 // Account represents account http

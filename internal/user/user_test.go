@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/internal"
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
-	"github.com/ribice/gorsk/internal/user"
+	"gorsk/internal"
+	"gorsk/internal/mock"
+	"gorsk/internal/mock/mockdb"
+	"gorsk/internal/user"
 )
 
 func TestView(t *testing.T) {

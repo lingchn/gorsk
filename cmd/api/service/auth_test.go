@@ -9,16 +9,16 @@ import (
 	"time"
 
 	"github.com/go-pg/pg/orm"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/cmd/api/config"
-	"github.com/ribice/gorsk/cmd/api/mw"
-	"github.com/ribice/gorsk/cmd/api/server"
-	"github.com/ribice/gorsk/cmd/api/service"
-	"github.com/ribice/gorsk/internal/auth"
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/mock/mockdb"
+	"gorsk/cmd/api/config"
+	"gorsk/cmd/api/mw"
+	"gorsk/cmd/api/server"
+	"gorsk/cmd/api/service"
+	"gorsk/internal/auth"
+	"gorsk/internal/mock"
+	"gorsk/internal/mock/mockdb"
 )
 
 func TestLogin(t *testing.T) {

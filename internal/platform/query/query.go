@@ -2,7 +2,7 @@ package query
 
 import (
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 )
 
 // List prepares data for list queries

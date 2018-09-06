@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 )
 
 // NewAccountDB returns a new AccountDB instance

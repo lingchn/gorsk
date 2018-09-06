@@ -32,19 +32,21 @@
 package main
 
 import (
+	"gorsk/internal/platform/postgres"
+
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal/platform/postgres"
+
+	"gorsk/cmd/api/config"
+	"gorsk/cmd/api/mw"
+	"gorsk/cmd/api/server"
+	"gorsk/cmd/api/service"
+	_ "gorsk/cmd/api/swagger"
+	"gorsk/internal/account"
+	"gorsk/internal/auth"
+	"gorsk/internal/rbac"
+	"gorsk/internal/user"
 
 	"github.com/go-pg/pg"
-	"github.com/ribice/gorsk/cmd/api/config"
-	"github.com/ribice/gorsk/cmd/api/mw"
-	"github.com/ribice/gorsk/cmd/api/server"
-	"github.com/ribice/gorsk/cmd/api/service"
-	_ "github.com/ribice/gorsk/cmd/api/swagger"
-	"github.com/ribice/gorsk/internal/account"
-	"github.com/ribice/gorsk/internal/auth"
-	"github.com/ribice/gorsk/internal/rbac"
-	"github.com/ribice/gorsk/internal/user"
 )
 
 func main() {

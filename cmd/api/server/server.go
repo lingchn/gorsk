@@ -7,8 +7,8 @@ import (
 	"github.com/facebookgo/grace/gracehttp"
 	"github.com/go-playground/validator"
 	"github.com/labstack/echo/middleware"
-	"github.com/ribice/gorsk/cmd/api/config"
-	"github.com/ribice/gorsk/cmd/api/mw"
+	"gorsk/cmd/api/config"
+	"gorsk/cmd/api/mw"
 
 	"github.com/labstack/echo"
 )

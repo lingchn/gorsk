@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/labstack/echo"
-	"github.com/ribice/gorsk/internal/mock"
-	"github.com/ribice/gorsk/internal/platform/postgres"
+	"gorsk/internal/mock"
+	"gorsk/internal/platform/postgres"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ribice/gorsk/internal"
+	"gorsk/internal"
 
 	"github.com/go-pg/pg"
 )
